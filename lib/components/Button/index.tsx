@@ -1,5 +1,5 @@
-const Button = (props: { text: string }) => {
-  return <button>{props.text}</button>
-}
+import type { ButtonProps } from './Button'
 
-export default Button
+export const Button = (props: ButtonProps) => {
+  return <button>{props.children}</button>
+}
