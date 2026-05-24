@@ -1,6 +1,7 @@
 import type { ButtonProps } from './Button'
 import type { Size, Variant } from '../../types/shared'
 import { classConcat } from '../../utils'
+import '../../styles/master.css'
 import '../../styles/globals.css'
 import './Button.css'
 
