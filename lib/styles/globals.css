@@ -1,3 +1,14 @@
 .primary {
   background: #534ab7;
+  color: #fffffc;
+}
+
+.secondary {
+  background: #eeedfe;
+  color: #534ab7;
+}
+
+.ghost {
+  background: transparent;
+  color: #534ab7;
 }/*# sourceMappingURL=globals.css.map */

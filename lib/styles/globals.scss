@@ -2,4 +2,15 @@
 
 .primary {
   background: $colorPrimary;
+  color: $colorWhite;
+}
+
+.secondary {
+  background: $colorSecondary;
+  color: $colorPrimary;
+}
+
+.ghost {
+  background: transparent;
+  color: $colorPrimary;
 }

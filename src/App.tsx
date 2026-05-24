@@ -3,7 +3,7 @@ import { Button } from '../lib/main'
 const App = () => {
   return (
     <>
-      <Button>Hello</Button>
+      <Button variant="ghost">Hello</Button>
     </>
   )
 }
