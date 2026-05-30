@@ -1,3 +1,12 @@
 body {
   background: black;
+}
+
+.components-table {
+  margin: 0 auto;
+  width: -moz-max-content;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 1rem;
 }/*# sourceMappingURL=App.css.map */

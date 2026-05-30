@@ -4,7 +4,11 @@ import { Button } from '../lib/main'
 const App = () => {
   return (
     <>
-      <Button>Hello</Button>
+      <div className="components-table">
+        <Button>Hello</Button>
+        <Button variant="secondary">Hello</Button>
+        <Button variant="ghost">Hello</Button>
+      </div>
     </>
   )
 }
