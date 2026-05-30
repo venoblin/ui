@@ -1,16 +1,31 @@
 .primary {
   background: #534ab7;
   color: #fffffc;
+  border: 1.5px solid #534ab7;
+  transition: background 0.2s ease;
+}
+.primary:hover {
+  background: #7f77dd;
 }
 
 .secondary {
   background: #eeedfe;
   color: #534ab7;
+  border: 1.5px solid #534ab7;
+  transition: background 0.2s ease;
+}
+.secondary:hover {
+  background: #cecbf6;
 }
 
 .ghost {
   background: transparent;
   color: #534ab7;
+  border: 1.5px solid transparent;
+  transition: background 0.2s ease;
+}
+.ghost:hover {
+  background: #eeedfe;
 }
 
 .sm {

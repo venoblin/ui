@@ -3,16 +3,31 @@
 .primary {
   background: $colorPrimary;
   color: $colorWhite;
+  border: 1.5px solid $colorPrimary;
+  @include defaultTransition(background);
+  &:hover {
+    background: $colorPrimaryHover;
+  }
 }
 
 .secondary {
   background: $colorSecondary;
   color: $colorPrimary;
+  border: 1.5px solid $colorPrimary;
+  @include defaultTransition(background);
+  &:hover {
+    background: $colorSecondaryHover;
+  }
 }
 
 .ghost {
   background: transparent;
   color: $colorPrimary;
+  border: 1.5px solid transparent;
+  @include defaultTransition(background);
+  &:hover {
+    background: $colorSecondary;
+  }
 }
 
 .sm {

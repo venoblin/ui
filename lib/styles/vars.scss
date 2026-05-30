@@ -3,6 +3,7 @@ $colorPrimaryHover: #7f77dd;
 $colorPrimaryActive: #3c3489;
 
 $colorSecondary: #eeedfe;
+$colorSecondaryHover: #cecbf6;
 
 $colorAccent: #1d9e75;
 
@@ -13,3 +14,7 @@ $colorInfo: #378add;
 
 $colorWhite: #fffffc;
 $colorBlack: #141414;
+
+@mixin defaultTransition($property) {
+  transition: $property 0.2s ease;
+}

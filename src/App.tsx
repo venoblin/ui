@@ -4,7 +4,7 @@ import { Button } from '../lib/main'
 const App = () => {
   return (
     <>
-      <Button size="md">Hello</Button>
+      <Button>Hello</Button>
     </>
   )
 }
