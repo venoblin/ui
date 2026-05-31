@@ -1,0 +1,33 @@
+@import "../../styles/vars.scss";
+
+.Link {
+  color: $colorPrimary;
+  text-decoration: none;
+  cursor: pointer;
+
+  &.hoverable {
+    @include defaultTransition(color);
+    &:hover {
+      color: $colorPrimaryHover;
+    }
+  }
+}
+
+.default {
+  font-weight: 500;
+}
+
+.inline {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 400;
+}
+
+.muted {
+  color: $colorGray;
+  &.hoverable {
+    &:hover {
+      color: $colorPrimary;
+    }
+  }
+}
