@@ -3,12 +3,12 @@ import './Button.css'
 import type { ButtonProps, ButtonSize, ButtonVariant } from './Button'
 import { classConcat } from '../../utils'
 
-export const Button = (props: ButtonProps) => {
+export const Button = ({ className, variant, size, ...rest }: ButtonProps) => {
   const classes = 'Button'
-  const variant: ButtonVariant = props.variant ? props.variant : 'primary'
-  const size: ButtonSize = props.size ? props.size : 'md'
+  const variantClass: ButtonVariant = variant ? variant : 'primary'
+  const sizeClass: ButtonSize = size ? size : 'md'
 
-  const fullClass = classConcat(classes, props.className, variant, size)
+  const fullClass = classConcat(classes, className, variantClass, sizeClass)
 
-  return <button className={fullClass}>{props.children}</button>
+  return <button className={fullClass} {...rest} />
 }
