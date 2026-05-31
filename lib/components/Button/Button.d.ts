@@ -1,4 +1,7 @@
-import type { VariantProps } from '../../types/shared'
+export type ButtonVariant = 'primary' | 'secondary' | 'ghost'
+export type ButtonSize = 'sm' | 'md' | 'lg'
 
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement>, VariantProps {}
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: ButtonVariant
+  size?: ButtonSize
+}
