@@ -4,7 +4,7 @@ import { Link as ReactLink } from 'react-router-dom'
 import type { LinkProps, LinkVariant } from './Link'
 import { classConcat } from '../../utils'
 
-const Link = ({
+export const Link = ({
   className,
   target,
   variant,
@@ -27,5 +27,3 @@ const Link = ({
 
   return <ReactLink to={to} className={fullClass} {...rest} />
 }
-
-export default Link
