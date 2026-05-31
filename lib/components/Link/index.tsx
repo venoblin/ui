@@ -4,7 +4,14 @@ import { Link as ReactLink } from 'react-router-dom'
 import type { LinkProps, LinkVariant } from './Link'
 import { classConcat } from '../../utils'
 
-const Link = ({ className, target, variant, children, ...rest }: LinkProps) => {
+const Link = ({
+  className,
+  target,
+  variant,
+  children,
+  to,
+  ...rest
+}: LinkProps) => {
   const classes = 'Link'
   const variantClass: LinkVariant = variant ? variant : 'default'
 
@@ -12,13 +19,13 @@ const Link = ({ className, target, variant, children, ...rest }: LinkProps) => {
 
   if (target && target === '_blank') {
     return (
-      <a href={target} {...rest}>
+      <a href={to} target={target} {...rest}>
         {children}
       </a>
     )
   }
 
-  return <ReactLink className={fullClass} {...rest} />
+  return <ReactLink to={to} className={fullClass} {...rest} />
 }
 
 export default Link
