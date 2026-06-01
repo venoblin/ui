@@ -1,19 +1,37 @@
-$colorPrimary: #534ab7;
-$colorPrimaryHover: #7f77dd;
-$colorPrimaryActive: #3c3489;
+// Brand — Lightsaber Red
+$colorPrimary: #ae0303;
+$colorPrimaryHover: #ff2020;
+$colorPrimaryActive: #990000;
+$colorSecondary: #1c1010;
+$colorSecondaryHover: #231414;
+$colorAccent: #ff4040;
 
-$colorSecondary: #eeedfe;
-$colorSecondaryHover: #cecbf6;
+// Semantic
+$colorSuccess: #4a8b4a;
+$colorWarning: #b38a1a;
+$colorDanger: #ff1a1a;
+$colorInfo: #5252cc;
 
-$colorAccent: #1d9e75;
+// Neutral
+$colorWhite: #f0eded; // stormtrooper off-white
+$colorBlack: #080608; // space black
+$colorGray: #6b6060; // vader armor
 
-$colorSuccess: #639922;
-$colorWarning: #ba7517;
-$colorDanger: #e24b4a;
-$colorInfo: #378add;
+// Surfaces — red-tinted dark layers
+$colorBgBase: #080608;
+$colorBgPanel: #0f0a0a;
+$colorBgSurface: #150d0d;
+$colorBgCard: #1c1010;
+$colorBgRaised: #231414;
+$colorBgControl: #2b1a1a;
+$colorBgHover: #331f1f;
 
-$colorWhite: #fffffc;
-$colorBlack: #141414;
+// Borders
+$colorBorderSubtle: #1c0d0d;
+$colorBorderDefault: #2b1414;
+$colorBorderEmphasis: #3d1f1f;
+$colorBorderStrong: #661414;
+$colorBorderFocus: #cc0000;
 
 @mixin defaultTransition($property) {
   transition: $property 0.2s ease;

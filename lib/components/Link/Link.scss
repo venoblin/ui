@@ -4,12 +4,26 @@
   color: $colorPrimary;
   text-decoration: none;
   cursor: pointer;
+  @include defaultTransition(color);
 
-  &.hoverable {
-    @include defaultTransition(color);
-    &:hover {
-      color: $colorPrimaryHover;
+  &:hover {
+    color: $colorPrimaryHover;
+
+    path {
+      stroke: $colorPrimaryHover;
     }
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 1.5px;
+  }
+
+  path {
+    @include defaultTransition(stroke);
+
+    stroke: $colorPrimary;
   }
 }
 
@@ -25,9 +39,16 @@
 
 .muted {
   color: $colorGray;
-  &.hoverable {
-    &:hover {
-      color: $colorPrimary;
+
+  &:hover {
+    color: $colorPrimary;
+
+    path {
+      stroke: $colorPrimary;
     }
+  }
+
+  path {
+    stroke: $colorGray;
   }
 }

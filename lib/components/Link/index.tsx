@@ -19,17 +19,11 @@ export const Link = ({
 
   if (target && target === '_blank') {
     return (
-      <a href={to} target={target} {...rest}>
+      <a href={to} target={target} className={fullClass} {...rest}>
         {children}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="1em"
-          height="1em"
-          viewBox="0 0 24 24"
-        >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path
             fill="none"
-            stroke="white"
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={2}

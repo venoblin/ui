@@ -1,1 +1,44 @@
-/*# sourceMappingURL=Link.css.map */
+.Link {
+  color: #ae0303;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.Link:hover {
+  color: #ff2020;
+}
+.Link:hover path {
+  stroke: #ff2020;
+}
+.Link svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 1.5px;
+}
+.Link path {
+  transition: stroke 0.2s ease;
+  stroke: #ae0303;
+}
+
+.default {
+  font-weight: 500;
+}
+
+.inline {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 400;
+}
+
+.muted {
+  color: #6b6060;
+}
+.muted:hover {
+  color: #ae0303;
+}
+.muted:hover path {
+  stroke: #ae0303;
+}
+.muted path {
+  stroke: #6b6060;
+}/*# sourceMappingURL=Link.css.map */

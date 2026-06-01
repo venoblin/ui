@@ -1,5 +1,7 @@
+@import "../../lib/styles/vars.scss";
+
 body {
-  background: black;
+  background: $colorBgBase;
 }
 
 .components-table {
