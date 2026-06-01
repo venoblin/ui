@@ -10,8 +10,10 @@ const App = () => {
         <Button variant="ghost">Hello</Button>
 
         <Link to="/">Hello</Link>
-        <Link to="/">Hello</Link>
-        <Link to="https://www.google.com" target="_blank">
+        <Link variant="muted" to="/">
+          Hello
+        </Link>
+        <Link variant="inline" to="https://www.google.com" target="_blank">
           Hello
         </Link>
       </div>

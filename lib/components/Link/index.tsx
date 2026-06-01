@@ -40,5 +40,9 @@ export const Link = ({
     )
   }
 
-  return <ReactLink to={to} className={fullClass} {...rest} />
+  return (
+    <ReactLink to={to} className={fullClass} {...rest}>
+      {children}
+    </ReactLink>
+  )
 }
