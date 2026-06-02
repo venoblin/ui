@@ -2,7 +2,7 @@ body {
   background: #080608;
 }
 
-.components-table {
+.Panel {
   margin: 0 auto;
   width: -moz-max-content;
   width: max-content;

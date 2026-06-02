@@ -28,6 +28,11 @@ $colorBorderEmphasis: #3d1f1f;
 $colorBorderStrong: #661414;
 $colorBorderFocus: #cc0000;
 
+$defaultSpacing: 1rem;
+$defaultHalfSpacing: $defaultSpacing / 2;
+
+$defaultBorderRadius: 1rem;
+
 @mixin defaultTransition($property) {
   transition: $property 0.2s ease;
 }
