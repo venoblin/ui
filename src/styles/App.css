@@ -1,5 +1,11 @@
 body {
   background: #080608;
+  padding: 0;
+  margin: 0;
+}
+
+.NavBar {
+  margin-bottom: 1rem;
 }
 
 .Panel {

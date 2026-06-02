@@ -1,1 +1,12 @@
-/*# sourceMappingURL=NavBar.css.map */
+.NavBar {
+  background: #0f0a0a;
+  color: #f0eded;
+  padding: 1rem;
+}
+
+.floating {
+  border-radius: 1rem;
+  max-width: 97vw;
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=NavBar.css.map */

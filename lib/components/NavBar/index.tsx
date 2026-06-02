@@ -1,7 +1,13 @@
 import './NavBar.css'
+import type { NavBarProps } from './NavBar'
+import { classConcat } from '../../utils'
 
-const NavBar = () => {
-  return <nav className="NavBar"></nav>
+export const NavBar = ({ isFloating, className, ...rest }: NavBarProps) => {
+  const fullClass = classConcat(
+    'NavBar',
+    className,
+    isFloating ? 'floating' : null
+  )
+
+  return <nav className={fullClass} {...rest} />
 }
-
-export default NavBar

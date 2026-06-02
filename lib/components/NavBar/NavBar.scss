@@ -1,0 +1,14 @@
+@import "../../styles/vars.scss";
+
+.NavBar {
+  background: $colorBgPanel;
+  color: $colorWhite;
+  padding: $defaultSpacing;
+}
+
+.floating {
+  border-radius: $defaultBorderRadius;
+  max-width: 97vw;
+  margin-left: auto;
+  margin-right: auto;
+}
