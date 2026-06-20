@@ -4,6 +4,7 @@
   color: $colorPrimary;
   text-decoration: none;
   cursor: pointer;
+  width: fit-content;
   @include defaultTransition(color);
 
   &:hover {
