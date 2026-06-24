@@ -20,7 +20,7 @@ const App = () => {
           Inline Target Blank
         </Link>
 
-        <Input />
+        <Input type="text" placeholder="Placeholder..." />
       </Panel>
     </>
   )

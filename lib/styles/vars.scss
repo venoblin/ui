@@ -1,32 +1,37 @@
-$colorPrimary: #ae0303;
-$colorPrimaryHover: #ff2020;
-$colorPrimaryActive: #990000;
-$colorSecondary: #1c1010;
-$colorSecondaryHover: #231414;
-$colorAccent: #ff4040;
+// ─── Brand — Lightsaber Red ───────────────────────────────────────────────────
+$colorPrimary: #cc0000; // Primary buttons, links, key UI actions
+$colorPrimaryHover: #ff2020; // Primary button hover — lightsaber flare
+$colorPrimaryActive: #990000; // Primary button pressed/active state
+$colorSecondary: #1c1010; // Secondary button background, subtle containers
+$colorSecondaryHover: #231414; // Secondary button hover background
+$colorAccent: #ff4040; // Highlights, badges, focus rings, decorative red
 
-$colorSuccess: #4a8b4a;
-$colorWarning: #b38a1a;
-$colorDanger: #ff1a1a;
-$colorInfo: #5252cc;
+// ─── Semantic ─────────────────────────────────────────────────────────────────
+$colorSuccess: #4a8b4a; // Success states, confirmations, valid inputs
+$colorWarning: #b38a1a; // Warnings, caution alerts, pending states
+$colorDanger: #ff1a1a; // Errors, destructive actions, invalid inputs
+$colorInfo: #5252cc; // Informational alerts, tooltips, neutral callouts
 
-$colorWhite: #f0eded;
-$colorBlack: #080608;
-$colorGray: #6b6060;
+// ─── Neutral ──────────────────────────────────────────────────────────────────
+$colorWhite: #f0eded; // Primary text, icons on dark backgrounds, stormtrooper white
+$colorBlack: #080608; // Deepest backgrounds, overlays, space black
+$colorGray: #6b6060; // Secondary text, placeholders, disabled states, vader armor
 
-$colorBgBase: #080608;
-$colorBgPanel: #0f0a0a;
-$colorBgSurface: #150d0d;
-$colorBgCard: #1c1010;
-$colorBgRaised: #231414;
-$colorBgControl: #2b1a1a;
-$colorBgHover: #331f1f;
+// ─── Surfaces — red-tinted dark layers ───────────────────────────────────────
+$colorBgBase: #080608; // Root app background — outermost layer
+$colorBgPanel: #0f0a0a; // Sidebar, nav rail, persistent side panels
+$colorBgSurface: #150d0d; // Main content area, page body background
+$colorBgCard: #1c1010; // Cards, list rows, content containers
+$colorBgRaised: #231414; // Modals, popovers, dropdowns, floating elements
+$colorBgControl: #2b1a1a; // Inputs, selects, textareas, checkboxes
+$colorBgHover: #331f1f; // Generic hover state for any interactive surface
 
-$colorBorderSubtle: #1c0d0d;
-$colorBorderDefault: #2b1414;
-$colorBorderEmphasis: #3d1f1f;
-$colorBorderStrong: #661414;
-$colorBorderFocus: #cc0000;
+// ─── Borders ──────────────────────────────────────────────────────────────────
+$colorBorderSubtle: #1c0d0d; // Barely visible dividers, section separators
+$colorBorderDefault: #2b1414; // Standard card and container borders
+$colorBorderEmphasis: #3d1f1f; // Emphasized borders, active list items
+$colorBorderStrong: #661414; // High contrast borders, selected states
+$colorBorderFocus: #cc0000; // Keyboard focus ring on inputs and controls
 
 $defaultSpacing: 1rem;
 $defaultHalfSpacing: $defaultSpacing / 2;
