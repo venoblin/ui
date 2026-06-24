@@ -2,5 +2,7 @@
 
 input {
   outline: none;
-  border: none;
+  border: $defaultBorder;
+  background: $colorBgControl;
+  border-radius: $defaultBorderRadius;
 }

@@ -36,3 +36,5 @@ $defaultBorderRadius: 1rem;
 @mixin defaultTransition($property) {
   transition: $property 0.2s ease;
 }
+
+$defaultBorder: 1px solid $colorBorderDefault;
