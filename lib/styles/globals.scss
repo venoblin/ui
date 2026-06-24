@@ -1,14 +1,1 @@
 @import "./vars.scss";
-
-input {
-  outline: none;
-  border: $defaultBorder;
-  background: $colorBgControl;
-  border-radius: $defaultBorderRadius;
-  padding: $defaultSpacing;
-  @include defaultTransition(border-color);
-}
-
-input:focus {
-  border-color: $colorPrimary;
-}

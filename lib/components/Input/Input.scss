@@ -1,4 +1,14 @@
 @import "../../styles/vars.scss";
 
 .Input {
+  outline: none;
+  border: $defaultBorder;
+  background: $colorBgControl;
+  border-radius: $defaultBorderRadius;
+  padding: $defaultSpacing;
+  @include defaultTransition(border-color);
+}
+
+.Input:focus {
+  border-color: $colorPrimary;
 }

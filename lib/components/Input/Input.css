@@ -1,1 +1,12 @@
-/*# sourceMappingURL=Input.css.map */
+.Input {
+  outline: none;
+  border: 1px solid #2b1414;
+  background: #2b1a1a;
+  border-radius: 1rem;
+  padding: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.Input:focus {
+  border-color: #ae0303;
+}/*# sourceMappingURL=Input.css.map */
