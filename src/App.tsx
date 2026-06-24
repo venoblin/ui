@@ -1,5 +1,5 @@
 import './styles/App.css'
-import { Button, Link, NavBar, Panel } from '../lib/main'
+import { Button, Link, NavBar, Panel, TextInput } from '../lib/main'
 
 const App = () => {
   return (
@@ -19,6 +19,8 @@ const App = () => {
         <Link variant="inline" to="https://www.google.com" target="_blank">
           Inline Target Blank
         </Link>
+
+        <TextInput />
       </Panel>
     </>
   )
