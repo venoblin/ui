@@ -1,1 +1,4 @@
-export interface TextInputProps extends React.JSX.IntrinsicElements.input {}
+export interface TextInputProps extends React.DetailedHTMLProps<
+  React.InputHTMLAttributes<HTMLInputElement>,
+  HTMLInputElement
+> {}
