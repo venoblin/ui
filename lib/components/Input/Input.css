@@ -1,12 +1,21 @@
 .Input {
   outline: none;
-  border: 1px solid #2b1414;
-  background: #2b1a1a;
+  border: 1px solid #0d2020;
+  background: #14202e;
+  color: #e8f0f0;
   border-radius: 1rem;
   padding: 1rem;
   transition: border-color 0.2s ease;
 }
 
 .Input:focus {
-  border-color: #ae0303;
+  border-color: #00a899;
+}
+
+.Input::-moz-placeholder {
+  color: #4a6070;
+}
+
+.Input::placeholder {
+  color: #4a6070;
 }/*# sourceMappingURL=Input.css.map */

@@ -4,11 +4,16 @@
   outline: none;
   border: $defaultBorder;
   background: $colorBgControl;
+  color: $colorWhite;
   border-radius: $defaultBorderRadius;
   padding: $defaultSpacing;
   @include defaultTransition(border-color);
 }
 
 .Input:focus {
-  border-color: $colorPrimary;
+  border-color: $colorBorderFocus;
+}
+
+.Input::placeholder {
+  color: $colorGray;
 }
