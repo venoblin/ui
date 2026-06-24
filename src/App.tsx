@@ -1,5 +1,5 @@
 import './styles/App.css'
-import { Button, Link, NavBar, Panel, TextInput } from '../lib/main'
+import { Button, Link, NavBar, Panel, Input } from '../lib/main'
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
           Inline Target Blank
         </Link>
 
-        <TextInput />
+        <Input />
       </Panel>
     </>
   )

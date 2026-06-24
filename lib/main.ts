@@ -6,4 +6,4 @@ export { Panel } from './components/Panel'
 
 export { NavBar } from './components/NavBar'
 
-export { TextInput } from './components/TextInput'
+export { Input } from './components/Input'
