@@ -1,3 +1,3 @@
 export const TextInput = () => {
-  return <input type="text"></input>
+  return <input className="TextInput" type="text"></input>
 }
