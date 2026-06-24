@@ -1,3 +1,4 @@
+import '../../styles/globals.css'
 import './NavBar.css'
 import type { NavBarProps } from './NavBar'
 import { classConcat } from '../../utils'

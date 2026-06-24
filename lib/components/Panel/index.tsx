@@ -1,3 +1,4 @@
+import '../../styles/globals.css'
 import './Panel.css'
 import type { PanelProps } from './Panel'
 import { classConcat } from '../../utils'
