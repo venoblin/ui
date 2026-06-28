@@ -1,5 +1,5 @@
 import './styles/App.css'
-import { Button, Link, NavBar, Panel, Input } from '../lib/main'
+import { Button, Link, NavBar, Panel, TextInput } from '../lib/main'
 
 const App = () => {
   return (
@@ -20,7 +20,9 @@ const App = () => {
           Inline Target Blank
         </Link>
 
-        <Input type="text" placeholder="Placeholder..." />
+        <TextInput type="text" placeholder="Text..." />
+        <TextInput type="email" placeholder="Email..." />
+        <TextInput type="password" placeholder="Password..." />
       </Panel>
     </>
   )
