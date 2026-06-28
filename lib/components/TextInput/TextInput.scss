@@ -1,6 +1,6 @@
 @import "../../styles/vars.scss";
 
-.Input {
+.TextInput {
   outline: none;
   border: $defaultBorder;
   background: $colorBgControl;
@@ -10,10 +10,10 @@
   @include defaultTransition(border-color);
 }
 
-.Input:focus {
+.TextInput:focus {
   border-color: $colorBorderFocus;
 }
 
-.Input::placeholder {
+.TextInput::placeholder {
   color: $colorGray;
 }

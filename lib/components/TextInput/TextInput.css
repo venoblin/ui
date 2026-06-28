@@ -1,4 +1,4 @@
-.Input {
+.TextInput {
   outline: none;
   border: 1px solid #0d2020;
   background: #14202e;
@@ -8,14 +8,14 @@
   transition: border-color 0.2s ease;
 }
 
-.Input:focus {
+.TextInput:focus {
   border-color: #00a899;
 }
 
-.Input::-moz-placeholder {
+.TextInput::-moz-placeholder {
   color: #4a6070;
 }
 
-.Input::placeholder {
+.TextInput::placeholder {
   color: #4a6070;
-}/*# sourceMappingURL=Input.css.map */
+}/*# sourceMappingURL=TextInput.css.map */
