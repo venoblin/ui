@@ -20,9 +20,9 @@ const App = () => {
           Inline Target Blank
         </Link>
 
-        <TextInput type="text" placeholder="Text..." />
-        <TextInput type="email" placeholder="Email..." />
-        <TextInput type="password" placeholder="Password..." />
+        <TextInput type="text" placeholder="Text" />
+        <TextInput type="email" placeholder="Email" />
+        <TextInput type="password" placeholder="Password" />
       </Panel>
     </>
   )
