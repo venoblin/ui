@@ -3,8 +3,8 @@ import './TextInput.css'
 import type { TextInputProps } from './TextInput'
 import { classConcat } from '../../utils'
 
-export const TextInput = ({ className, ...rest }: TextInputProps) => {
+export const TextInput = ({ className, type, ...rest }: TextInputProps) => {
   const fullClass = classConcat('TextInput', className)
 
-  return <input className={fullClass} {...rest} />
+  return <input type={type} className={fullClass} {...rest} />
 }
