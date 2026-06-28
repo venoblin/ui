@@ -3,3 +3,7 @@ export const classConcat = (
 ) => {
   return classes.filter(Boolean).join(' ')
 }
+
+export const generateUniqueId = (id: string, salt: string) => {
+  return `${salt}_${id}`
+}
