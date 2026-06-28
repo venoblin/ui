@@ -6,5 +6,5 @@ import { classConcat } from '../../utils'
 export const TextInput = ({ className, type, ...rest }: TextInputProps) => {
   const fullClass = classConcat('TextInput', className)
 
-  return <input type={type} className={fullClass} {...rest} />
+  return <input type={type ? type : 'text'} className={fullClass} {...rest} />
 }
