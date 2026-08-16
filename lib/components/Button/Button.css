@@ -11,7 +11,7 @@
   transition: background 0.2s ease;
 }
 .primary:hover {
-  background: #e4e4e7;
+  background: rgba(228, 228, 231, 0.9450980392);
 }
 
 .secondary {

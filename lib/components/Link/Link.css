@@ -7,10 +7,10 @@
   transition: color 0.2s ease;
 }
 .Link:hover {
-  color: #e4e4e7;
+  color: rgba(228, 228, 231, 0.9450980392);
 }
 .Link:hover path {
-  stroke: #e4e4e7;
+  stroke: rgba(228, 228, 231, 0.9450980392);
 }
 .Link svg {
   width: 20px;
