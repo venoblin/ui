@@ -1,37 +1,37 @@
-// ─── Brand — Electric Cyan ────────────────────────────────────────────────────
-$colorPrimary: #00a899; // Primary buttons, links, key UI actions
-$colorPrimaryHover: #00ccbb; // Primary button hover — grid flare
-$colorPrimaryActive: #007a6e; // Primary button pressed/active state
-$colorSecondary: #0d141f; // Secondary button background, subtle containers
-$colorSecondaryHover: #101a26; // Secondary button hover background
-$colorAccent: #00ffe8; // Highlights, badges, focus rings, neon glow
+// ─── Brand — Monochrome ────────────────────────────────────────────────────────
+$colorPrimary: #fafafa; // Primary buttons, links, key UI actions
+$colorPrimaryHover: #e4e4e7; // Primary button hover — dims toward background
+$colorPrimaryActive: #d4d4d8; // Primary button pressed/active state
+$colorSecondary: #27272a; // Secondary button background, subtle containers
+$colorSecondaryHover: #3f3f46; // Secondary button hover background
+$colorAccent: #a1a1aa; // Highlights, badges, focus rings, subtle emphasis
 
 // ─── Semantic ─────────────────────────────────────────────────────────────────
-$colorSuccess: #4a8b5a; // Success states, confirmations, valid inputs
-$colorWarning: #b38a1a; // Warnings, caution alerts, pending states
-$colorDanger: #ff1a1a; // Errors, destructive actions, invalid inputs
-$colorInfo: #5252cc; // Informational alerts, tooltips, neutral callouts
+$colorSuccess: #4d5d50; // Success states, confirmations, valid inputs
+$colorWarning: #6b5d42; // Warnings, caution alerts, pending states
+$colorDanger: #7f1d1d; // Errors, destructive actions, invalid inputs
+$colorInfo: #45505f; // Informational alerts, tooltips, neutral callouts
 
 // ─── Neutral ──────────────────────────────────────────────────────────────────
-$colorWhite: #e8f0f0; // Primary text, icons on dark backgrounds
-$colorBlack: #060810; // Deepest backgrounds, overlays, deep navy
-$colorGray: #4a6070; // Secondary text, placeholders, disabled states
+$colorWhite: #fafafa; // Primary text, icons on dark backgrounds
+$colorBlack: #09090b; // Deepest backgrounds, overlays
+$colorGray: #71717a; // Secondary text, placeholders, disabled states
 
-// ─── Surfaces — cyan-tinted navy layers ──────────────────────────────────────
-$colorBgBase: #060810; // Root app background — outermost layer
-$colorBgPanel: #080d14; // Sidebar, nav rail, persistent side panels
-$colorBgSurface: #0a1018; // Main content area, page body background
-$colorBgCard: #0d141f; // Cards, list rows, content containers
-$colorBgRaised: #101a26; // Modals, popovers, dropdowns, floating elements
-$colorBgControl: #14202e; // Inputs, selects, textareas, checkboxes
-$colorBgHover: #1a2a3a; // Generic hover state for any interactive surface
+// ─── Surfaces — pure grayscale layers ─────────────────────────────────────────
+$colorBgBase: #09090b; // Root app background — outermost layer
+$colorBgPanel: #0d0d10; // Sidebar, nav rail, persistent side panels
+$colorBgSurface: #121215; // Main content area, page body background
+$colorBgCard: #18181b; // Cards, list rows, content containers
+$colorBgRaised: #202024; // Modals, popovers, dropdowns, floating elements
+$colorBgControl: #27272a; // Inputs, selects, textareas, checkboxes
+$colorBgHover: #313136; // Generic hover state for any interactive surface
 
 // ─── Borders ──────────────────────────────────────────────────────────────────
-$colorBorderSubtle: #0a1a1a; // Barely visible dividers, section separators
-$colorBorderDefault: #0d2020; // Standard card and container borders
-$colorBorderEmphasis: #1a3030; // Emphasized borders, active list items
-$colorBorderStrong: #1a4a4a; // High contrast borders, selected states
-$colorBorderFocus: #00a899; // Keyboard focus ring on inputs and controls
+$colorBorderSubtle: #16161a; // Barely visible dividers, section separators
+$colorBorderDefault: #27272a; // Standard card and container borders
+$colorBorderEmphasis: #3f3f46; // Emphasized borders, active list items
+$colorBorderStrong: #52525b; // High contrast borders, selected states
+$colorBorderFocus: #d4d4d8; // Keyboard focus ring on inputs and controls
 
 $defaultSpacing: 1rem;
 $defaultHalfSpacing: $defaultSpacing / 2;

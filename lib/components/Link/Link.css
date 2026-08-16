@@ -1,5 +1,5 @@
 .Link {
-  color: #00a899;
+  color: #fafafa;
   text-decoration: none;
   cursor: pointer;
   width: -moz-fit-content;
@@ -7,10 +7,10 @@
   transition: color 0.2s ease;
 }
 .Link:hover {
-  color: #00ccbb;
+  color: #e4e4e7;
 }
 .Link:hover path {
-  stroke: #00ccbb;
+  stroke: #e4e4e7;
 }
 .Link svg {
   width: 20px;
@@ -19,7 +19,7 @@
 }
 .Link path {
   transition: stroke 0.2s ease;
-  stroke: #00a899;
+  stroke: #fafafa;
 }
 
 .default {
@@ -33,14 +33,14 @@
 }
 
 .muted {
-  color: #4a6070;
+  color: #71717a;
 }
 .muted:hover {
-  color: #00a899;
+  color: #fafafa;
 }
 .muted:hover path {
-  stroke: #00a899;
+  stroke: #fafafa;
 }
 .muted path {
-  stroke: #4a6070;
+  stroke: #71717a;
 }/*# sourceMappingURL=Link.css.map */

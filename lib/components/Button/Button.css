@@ -4,33 +4,33 @@
 }
 
 .primary {
-  background: #00a899;
-  color: #e8f0f0;
-  border: 1.5px solid #00a899;
+  background: #fafafa;
+  color: #fafafa;
+  border: 1.5px solid #fafafa;
   transition: background 0.2s ease;
 }
 .primary:hover {
-  background: #00ccbb;
+  background: #e4e4e7;
 }
 
 .secondary {
-  background: #0d141f;
-  color: #00a899;
-  border: 1.5px solid #00a899;
+  background: #27272a;
+  color: #fafafa;
+  border: 1.5px solid #fafafa;
   transition: background 0.2s ease;
 }
 .secondary:hover {
-  background: #101a26;
+  background: #3f3f46;
 }
 
 .ghost {
   background: transparent;
-  color: #00a899;
+  color: #fafafa;
   border: 1.5px solid transparent;
   transition: background 0.2s ease;
 }
 .ghost:hover {
-  background: #101a26;
+  background: #3f3f46;
 }
 
 .sm {
