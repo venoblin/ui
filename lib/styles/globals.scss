@@ -1,1 +1,15 @@
 @import "./vars.scss";
+
+@font-face {
+  font-family: "GoogleSans";
+  src: url("../../public/fonts/GoogleSans.ttf");
+}
+
+@font-face {
+  font-family: "Mozilla";
+  src: url("../../public/fonts/MozillaHeadline.ttf");
+}
+
+* {
+  font-family: "GoogleSans", sans-serif;
+}
