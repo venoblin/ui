@@ -7,7 +7,7 @@
 
 .primary {
   background: $colorPrimary;
-  color: $colorWhite;
+  color: $colorSecondary;
   border: 1.5px solid $colorPrimary;
   @include defaultTransition(background);
   &:hover {
