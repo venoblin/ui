@@ -8,4 +8,14 @@
 }
 * {
   font-family: "GoogleSans", sans-serif;
+  color: #fafafa;
+}
+
+label.hide {
+  position: absolute;
+  left: 9999999px;
+}
+
+label {
+  cursor: pointer;
 }/*# sourceMappingURL=globals.css.map */

@@ -12,4 +12,14 @@
 
 * {
   font-family: "GoogleSans", sans-serif;
+  color: $colorWhite;
+}
+
+label.hide {
+  position: absolute;
+  left: 9999999px;
+}
+
+label {
+  cursor: pointer;
 }
