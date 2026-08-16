@@ -3,12 +3,13 @@
 .Button {
   border: none;
   cursor: pointer;
+  border: $defaultBorderSize solid transparent;
 }
 
 .primary {
   background: $colorPrimary;
   color: $colorSecondary;
-  border: 1px solid $colorPrimary;
+  border-color: $colorPrimary;
   @include defaultTransition(background);
   &:hover {
     background: $colorPrimaryHover;
@@ -18,7 +19,6 @@
 .secondary {
   background: $colorSecondary;
   color: $colorPrimary;
-  border: 1px solid transparent;
   @include defaultTransition(background);
   &:hover {
     background: $colorSecondaryHover;
@@ -28,7 +28,7 @@
 .outline {
   background: transparent;
   color: $colorPrimary;
-  border: 1px solid $colorPrimary;
+  border-color: $colorSecondary;
   @include defaultTransition(background);
   &:hover {
     background: $colorSecondaryHover;
