@@ -1,4 +1,14 @@
-input[type=radio] {
+.radio-wrapper {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.radio-wrapper:last-of-type {
+  margin-bottom: 0;
+}
+.radio-wrapper label {
+  margin-left: 0.5rem;
+}
+.radio-wrapper input[type=radio] {
   -webkit-appearance: none;
   -moz-appearance: none;
        appearance: none;
@@ -15,8 +25,7 @@ input[type=radio] {
   display: grid;
   place-content: center;
 }
-
-input[type=radio]::before {
+.radio-wrapper input[type=radio]::before {
   content: "";
   width: 0.65em;
   height: 0.65em;
@@ -26,7 +35,6 @@ input[type=radio]::before {
   box-shadow: inset 1em 1em #fafafa;
   background-color: CanvasText;
 }
-
-input[type=radio]:checked::before {
+.radio-wrapper input[type=radio]:checked::before {
   transform: scale(1);
 }/*# sourceMappingURL=RadioInput.css.map */

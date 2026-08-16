@@ -15,7 +15,10 @@ export const RadioInput = ({
     <div className={fullClass} {...rest}>
       {values.length > 0 &&
         values.map((value) => (
-          <div key={generateUniqueId(value, 'RadioInput')}>
+          <div
+            className="radio-wrapper"
+            key={generateUniqueId(value, 'RadioInput')}
+          >
             <input
               type="radio"
               name={name}
