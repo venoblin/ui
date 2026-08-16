@@ -24,7 +24,11 @@ const App = () => {
         <TextInput type="email" name="email" placeholder="Email" />
         <TextInput type="password" name="password" placeholder="Password" />
 
-        <RadioInput name="test" values={['Value1', 'Value2', 'Value3']} />
+        <RadioInput
+          label="Test?"
+          name="test"
+          values={['Value1', 'Value2', 'Value3']}
+        />
       </Panel>
     </>
   )

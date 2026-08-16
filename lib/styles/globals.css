@@ -9,6 +9,8 @@
 * {
   font-family: "GoogleSans", sans-serif;
   color: #fafafa;
+  margin: 0;
+  padding: 0;
 }
 
 label.hide {

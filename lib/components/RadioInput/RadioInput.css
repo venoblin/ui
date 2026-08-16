@@ -1,14 +1,17 @@
-.radio-wrapper {
+.RadioInput .radio-wrapper {
   display: flex;
   margin-bottom: 0.5rem;
 }
-.radio-wrapper:last-of-type {
+.RadioInput .radio-wrapper:last-of-type {
   margin-bottom: 0;
 }
-.radio-wrapper label {
+.RadioInput label {
   margin-left: 0.5rem;
 }
-.radio-wrapper input[type=radio] {
+.RadioInput p {
+  margin-bottom: 0.5rem;
+}
+.RadioInput input[type=radio] {
   -webkit-appearance: none;
   -moz-appearance: none;
        appearance: none;
@@ -25,7 +28,7 @@
   display: grid;
   place-content: center;
 }
-.radio-wrapper input[type=radio]::before {
+.RadioInput input[type=radio]::before {
   content: "";
   width: 0.65em;
   height: 0.65em;
@@ -35,6 +38,6 @@
   box-shadow: inset 1em 1em #fafafa;
   background-color: CanvasText;
 }
-.radio-wrapper input[type=radio]:checked::before {
+.RadioInput input[type=radio]:checked::before {
   transform: scale(1);
 }/*# sourceMappingURL=RadioInput.css.map */

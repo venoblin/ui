@@ -1,14 +1,20 @@
 @import "../../styles/vars.scss";
 
-.radio-wrapper {
-  display: flex;
-  margin-bottom: $defaultHalfSpacing;
-  &:last-of-type {
-    margin-bottom: 0;
+.RadioInput {
+  .radio-wrapper {
+    display: flex;
+    margin-bottom: $defaultHalfSpacing;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 
   label {
     margin-left: $defaultHalfSpacing;
+  }
+
+  p {
+    margin-bottom: $defaultHalfSpacing;
   }
 
   input[type="radio"] {

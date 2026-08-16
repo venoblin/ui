@@ -6,6 +6,7 @@ import { classConcat, generateUniqueId } from '../../utils'
 export const RadioInput = ({
   className,
   name,
+  label,
   values,
   ...rest
 }: RadioInputProps) => {
@@ -13,6 +14,8 @@ export const RadioInput = ({
 
   return (
     <div className={fullClass} {...rest}>
+      <p>{label}</p>
+
       {values.length > 0 &&
         values.map((value) => (
           <div
