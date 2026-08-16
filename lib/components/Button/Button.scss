@@ -8,7 +8,7 @@
 .primary {
   background: $colorPrimary;
   color: $colorSecondary;
-  border: 1.5px solid $colorPrimary;
+  border: 1px solid $colorPrimary;
   @include defaultTransition(background);
   &:hover {
     background: $colorPrimaryHover;
@@ -18,17 +18,17 @@
 .secondary {
   background: $colorSecondary;
   color: $colorPrimary;
-  border: 1.5px solid $colorPrimary;
+  border: 1px solid transparent;
   @include defaultTransition(background);
   &:hover {
     background: $colorSecondaryHover;
   }
 }
 
-.ghost {
+.outline {
   background: transparent;
   color: $colorPrimary;
-  border: 1.5px solid transparent;
+  border: 1px solid $colorPrimary;
   @include defaultTransition(background);
   &:hover {
     background: $colorSecondaryHover;

@@ -6,7 +6,7 @@
 .primary {
   background: #fafafa;
   color: #27272a;
-  border: 1.5px solid #fafafa;
+  border: 1px solid #fafafa;
   transition: background 0.2s ease;
 }
 .primary:hover {
@@ -16,20 +16,20 @@
 .secondary {
   background: #27272a;
   color: #fafafa;
-  border: 1.5px solid #fafafa;
+  border: 1px solid transparent;
   transition: background 0.2s ease;
 }
 .secondary:hover {
   background: #3f3f46;
 }
 
-.ghost {
+.outline {
   background: transparent;
   color: #fafafa;
-  border: 1.5px solid transparent;
+  border: 1px solid #fafafa;
   transition: background 0.2s ease;
 }
-.ghost:hover {
+.outline:hover {
   background: #3f3f46;
 }
 

@@ -10,7 +10,7 @@ const App = () => {
       <Panel>
         <Button>Default</Button>
         <Button variant="secondary">Secondary</Button>
-        <Button variant="ghost">Ghost</Button>
+        <Button variant="outline">Outline</Button>
 
         <Link to="/">Default</Link>
         <Link variant="muted" to="/" target="_blank">
