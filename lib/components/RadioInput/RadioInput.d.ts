@@ -3,4 +3,5 @@ export interface RadioInputProps {
   name: string
   label: string
   values: string[]
+  defaultValue?: string
 }
