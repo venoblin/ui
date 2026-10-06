@@ -8,6 +8,7 @@ export const RadioInput = ({
   name,
   label,
   values,
+  defaultValue,
   ...rest
 }: RadioInputProps) => {
   const fullClass = classConcat('RadioInput', className)
