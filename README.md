@@ -3,9 +3,9 @@
 <a href="https://github.com/user/repo">
 <img src=".readme-images/project-logo.svg" alt="Logo" height="128px">
 </a>
-<h3 align="center">Repo Name</h3>
+<h3 align="center">UI</h3>
 <p align="center">
-Short description of project!
+React UI library for my personal projects.
 <br/>
 <br/>
 <a href="https://github.com/user/repo/wiki"><strong>Explore the docs »</strong></a>
