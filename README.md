@@ -13,8 +13,6 @@ React UI library for my personal projects.
 <br/>
 </div>
 
-![Contributors](https://img.shields.io/github/contributors/user/repo?color=dark-green) ![Issues](https://img.shields.io/github/issues/user/repo) ![License](https://img.shields.io/github/license/user/repo)
-
 Table of Contents
 
 - [About The Project](#about-the-project)
