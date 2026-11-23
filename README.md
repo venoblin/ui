@@ -11,10 +11,6 @@ React UI library for my personal projects.
 <a href="https://github.com/user/repo/wiki"><strong>Explore the docs »</strong></a>
 <br/>
 <br/>
-<a href="https://www.repo.com">View Demo</a> . 
-<a href="https://github.com/user/repo/issues/new?labels=bug&amp;template=bug_report.md">Report Bug</a> . 
-<a href="https://github.com/user/repo/issues/new?labels=enhancement&amp;&template=feature_request.md">Request Feature</a>
-</p>
 </div>
 
 ![Contributors](https://img.shields.io/github/contributors/user/repo?color=dark-green) ![Issues](https://img.shields.io/github/issues/user/repo) ![License](https://img.shields.io/github/license/user/repo)
