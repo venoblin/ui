@@ -26,8 +26,6 @@ Table of Contents
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
-- [Notice](#notice)
 
 ## About The Project
 
@@ -134,14 +132,3 @@ If you have any questions or suggestions, feel free to reach out to us:
 
 - Raise an issue on the repository: [GitHub Repository](https://github.com/user/repo)
 - Connect with us on social media: [@user](https://socialmedia.com/user)
-
-## Acknowledgments
-
-A special thanks to the following for their contributions, support and inspiration:
-
-- [makeread.me](https://github.com/ShaanCoding/makeread.me)
-- [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-
-## Notice
-
-Any other information.
