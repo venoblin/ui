@@ -22,10 +22,6 @@ Table of Contents
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## About The Project
 
@@ -96,39 +92,3 @@ Describe prerequisites and how to complete them, this example we're installing n
 ## Usage
 
 Put usage examples here
-
-## Roadmap
-
-The roadmap includes both completed and future goals. Here's what we have accomplished and looking forward to:
-
-- [x] new feature
-- [x] new feature
-- [x] new feature
-  - [x] feature of the new feature
-  - [x] feature of the new feature
-
-See the [open issues](https://github.com/user/repo/issues) for a full list of proposed features (and known issues).
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag &quot;enhancement&quot;.
-Don&#39;t forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m &#39;Add some AmazingFeature&#39;`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the Mozilla Public License 2.0 License. See [Mozilla Public License 2.0 License](https://github.com/user/repo/LICENSE.md) for more information.
-
-## Contact
-
-If you have any questions or suggestions, feel free to reach out to us:
-
-- Raise an issue on the repository: [GitHub Repository](https://github.com/user/repo)
-- Connect with us on social media: [@user](https://socialmedia.com/user)
