@@ -8,9 +8,6 @@
 React UI library for my personal projects.
 <br/>
 <br/>
-<a href="https://github.com/user/repo/wiki"><strong>Explore the docs »</strong></a>
-<br/>
-<br/>
 </div>
 
 Table of Contents
