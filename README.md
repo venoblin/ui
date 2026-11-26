@@ -61,31 +61,6 @@ Describe prerequisites and how to complete them, this example we're installing n
    git clone --recurse-submodules https://github.com/venoblin/scripts
    ```
 
-2. **Create settings file (for [ezdownloadsorter](https://github.com/venoblin/download-file-sorter))**
-
-   ```sh
-   cd scripts
-   touch settings.json
-   ```
-
-3. **Modify `settings.json`**
-
-   ```json
-   {
-     "downloads": "/path/to/Downloads",
-     "destinations": {
-       ".file-extension": "/path/to/destination",
-       ".file-extension": "/path/to/destination",
-       ".file-extension": "/path/to/destination"
-     }
-   }
-   ```
-
-4. **Install scripts**
-   ```sh
-   ./install.sh
-   ```
-
 ## Usage
 
 Put usage examples here
