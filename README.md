@@ -47,11 +47,6 @@ Describe prerequisites and how to complete them, this example we're installing n
   ```sh
   npm install -g nodemon
   ```
-  Make sure NPM is installed.
-- Verify installation:
-  ```sh
-  nodemon --version
-  ```
 
 ### Installation
 
