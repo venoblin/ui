@@ -57,5 +57,3 @@ Describe prerequisites and how to complete them, this example we're installing n
    ```
 
 ## Usage
-
-Put usage examples here
